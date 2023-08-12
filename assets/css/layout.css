@@ -4,6 +4,12 @@
 
 
 /* ad-search */
+
+aside .search-area,
+aside .menu-bar {
+  display: none;
+}
+
 .ad-search{
   overflow: hidden;
   position: fixed;

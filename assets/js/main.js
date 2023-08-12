@@ -77,13 +77,10 @@ $(function () { //문서 로드 후 최초실행 1
   var cateSlide = new Swiper(".cate-area", {
     slidesPerView: 'auto',
     spaceBetween: 10,
-    // loop: true,
     navigation: {
       nextEl: ".next",
       prevEl: ".prev",
     }
-    // mousewheel: true,
-    // keyboard: true,
   });
 
 
@@ -183,13 +180,11 @@ $(function () { //문서 로드 후 최초실행 1
   var eventSlide = new Swiper(".group-event", {
     slidesPerView: 'auto',
     spaceBetween: 10,
-    // loop: true,
+
     navigation: {
       nextEl: ".next",
       prevEl: ".prev",
     }
-    // mousewheel: true,
-    // keyboard: true,
   });
 
   var gmSlide = new Swiper(".gm-slide", {
