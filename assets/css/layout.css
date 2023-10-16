@@ -1,7 +1,10 @@
 @import './font.css';
 @import './common.css';
 @import './reset.css';
-
+/* skip-nav */
+.skip-nav { position: relative }
+.skip-nav a { position: absolute; line-height: 50px; background: #f00; color: #fff; top: -50px; }
+.skip-nav a:focus, .skip-nav a:active { top: 0; }
 
 /* ad-search */
 
